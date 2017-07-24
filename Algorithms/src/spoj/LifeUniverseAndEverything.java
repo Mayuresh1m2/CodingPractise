@@ -1,3 +1,5 @@
+package spoj;
+
 import java.io.BufferedReader;
 import java.io.IOException;
 import java.io.InputStreamReader;
@@ -9,9 +11,9 @@ public class LifeUniverseAndEverything {
     public static void main(String[] args) throws IOException {
         BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
         String inp = br.readLine();
-        while (!inp.isEmpty() && !inp.contentEquals("42")){
+        while (!inp.isEmpty() && !inp.contentEquals("42")) {
             System.out.println(inp);
-            inp= br.readLine();
+            inp = br.readLine();
         }
         br.close();
     }
